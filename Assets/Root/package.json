@@ -1,0 +1,14 @@
+{
+  "name": "com.worldreaver.snowflake",
+  "displayName": "Snowflake",
+  "description": "Flake ID Generators is a set of decentralized, k-ordered id generation services in C#.",
+  "version": "0.0.1",
+  "unity": "2018.3",
+  "author": "yenmoc <phongsoyenmoc.diep@gmail.com> (https://github.com/phongsoyenmoc)",
+  "license": "MIT",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/worldreaver/Snowflake"
+  }
+}
