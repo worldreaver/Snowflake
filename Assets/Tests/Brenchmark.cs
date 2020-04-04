@@ -7,9 +7,13 @@ using Worldreaver.Snowflake;
 
 public class Brenchmark : MonoBehaviour
 {
+    [Snowflake]
+    public string Id;
+    
     // Start is called before the first frame update
     private void Start()
     {
+        Debug.Log(Id);
         const int count = 1;
         var unique = new Id64Generator(10);
         var unique2 = new IdGuidGenerator(10);
